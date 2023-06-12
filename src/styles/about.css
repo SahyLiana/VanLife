@@ -1,0 +1,43 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-img {
+  max-width: 100%;
+  height: 60vh;
+  background-image: url(../assets/night-van.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-content {
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+.about-footer {
+  background-color: orange;
+  padding: 15px 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.about-footer p {
+  font-size: 30px;
+
+  margin: 10px 0 15px 0;
+}
+
+.about-footer a {
+  text-decoration: none;
+  background-color: black;
+  padding: 12px;
+  display: block;
+  border-radius: 12px;
+  width: fit-content;
+  color: white;
+  font-size: 18px;
+}

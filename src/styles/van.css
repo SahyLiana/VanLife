@@ -1,0 +1,44 @@
+.myvan-container {
+  padding: 15px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#van-image {
+  width: 100%;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.type {
+  /* background-color: black; */
+  color: white;
+  width: 15%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.simple {
+  background-color: rgb(209, 140, 13) !important;
+}
+
+.rugged {
+  background-color: green !important;
+}
+
+.luxury {
+  background-color: black;
+}
+
+.van-container .btn-rent {
+  text-decoration: none;
+  background-color: orange;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}

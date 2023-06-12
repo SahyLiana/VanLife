@@ -1,0 +1,36 @@
+.login-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  border-radius: 5px;
+  padding: 10px 5px;
+  border: 1px solid black;
+}
+
+.signIn-btn {
+  cursor: pointer;
+  background-color: rgb(255, 132, 0);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.login-container a {
+  color: rgb(255, 132, 0);
+}
+
+.login-container > p,
+a {
+  font-size: 15px;
+}

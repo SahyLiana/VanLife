@@ -1,0 +1,108 @@
+.vans-container {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.vans-header {
+  margin: 10px 0 40px 0;
+  font-size: 50px;
+}
+
+.vans-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card-item {
+  max-width: 320px;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.orange {
+  background-color: rgb(209, 140, 13) !important;
+}
+
+.green {
+  background-color: green !important;
+}
+
+.black {
+  background-color: black;
+}
+
+.vans-items a {
+  text-decoration: none;
+  color: black;
+}
+
+.vans-items .btn {
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+  display: block;
+}
+
+.vans-items .btn {
+  padding: 5px;
+  width: 40%;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-group {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.btn-group > a {
+  color: black;
+  font-weight: bold;
+  background-color: rgba(232, 207, 139, 0.5);
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  transition: all 0.4s;
+  border: none;
+}
+
+/* .btn-group > a:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+} */
+
+.btn-group .sim:hover {
+  color: white;
+  background-color: rgb(209, 140, 13);
+}
+
+.btn-group .lux:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-group .rug:hover {
+  background-color: green;
+  color: white;
+}
+.btn-group .sim.selected {
+  color: white;
+  background-color: rgb(209, 140, 13);
+}
+.btn-group .lux.selected {
+  background-color: black;
+  color: white;
+}
+.btn-group .rug.selected {
+  background-color: green;
+  color: white;
+}

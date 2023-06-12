@@ -1,0 +1,31 @@
+.home-container {
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.home-title {
+  font-size: 50px;
+}
+
+.home-text {
+  font-size: 20px;
+}
+
+.home-btn {
+  background-color: orange;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.home-btn a {
+  display: block;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
