@@ -50,3 +50,20 @@ in
 3. What component can we render if the user IS logged in?
 
 <Outlet />
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBM7MTaKt8bIwZ7qAOk_DfGmqu7ss-HYXE",
+  authDomain: "vanlife-2922e.firebaseapp.com",
+  projectId: "vanlife-2922e",
+  storageBucket: "vanlife-2922e.appspot.com",
+  messagingSenderId: "828182793783",
+  appId: "1:828182793783:web:48778f8fcf091c6f4a39b2"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);

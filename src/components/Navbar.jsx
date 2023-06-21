@@ -3,6 +3,12 @@ import { Link, NavLink } from "react-router-dom";
 import "../styles/navbar.css";
 import Avatar from "../assets/avatar-icon.png";
 
+function fakeLogOut(e) {
+  e.preventDefault();
+  localStorage.removeItem("loggedIn");
+  window.location.reload();
+}
+
 function Navbar() {
   const myStyle = {
     textDecoration: "underline",
@@ -41,6 +47,13 @@ function Navbar() {
         <Link to="login">
           <img src={Avatar} style={{ width: "18px" }} />
         </Link>
+        <button
+          onClick={(event) => {
+            fakeLogOut(event);
+          }}
+        >
+          X
+        </button>
       </div>
     </nav>
   );

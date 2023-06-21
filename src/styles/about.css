@@ -5,10 +5,14 @@
 }
 
 .about-img {
-  max-width: 100%;
-  height: 60vh;
-  background-image: url(../assets/night-van.png);
+  /* max-width: 100%; */
+  /* height: 60vh; */
+  height: 400px;
+  /* background-image: url(../assets/night-van.png);
   background-repeat: no-repeat;
+  background-size: cover; */
+  background: url("../assets/night-van.png"), no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
 }

@@ -28,3 +28,9 @@
 .subnav :hover {
   text-decoration: underline;
 }
+
+.right-side-vandetail {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}

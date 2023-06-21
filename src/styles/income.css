@@ -1,0 +1,22 @@
+.income-container {
+  padding: 20px;
+}
+
+.income-container > img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.income-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.income-card > h1 {
+  font-size: 35px;
+}

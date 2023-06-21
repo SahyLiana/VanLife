@@ -1,0 +1,19 @@
+.review-container {
+  padding: 20px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.review-container > img {
+  width: 80%;
+}
+
+.review-description {
+  margin-bottom: 0px;
+  border-bottom: 1px solid gray;
+  padding: 20px 0px;
+}
